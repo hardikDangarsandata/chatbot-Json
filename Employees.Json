@@ -1,0 +1,177 @@
+{
+  "Employees": {
+    "description": "This dataset is about the employee\u2019s information. The employee is also known as the caregivers. It includes the name, address, gender, phone number, begin date and end date of the individual employees.",
+    "columns": {
+      "ColumnName": {
+        "description": "Sales ID",
+        "distinct_values": []
+      },
+      "Account": {
+        "Type": "STRING"
+      },
+      "Account Name": {
+        "Type": "STRING"
+      },
+      "Employee ID": {
+        "Type": "STRING"
+      },
+      "EmployeeFirstName": {
+        "Type": "STRING"
+      },
+      "EmployeeLastName": {
+        "Type": "STRING"
+      },
+      "EmployeeMiddleName": {
+        "Type": "STRING"
+      },
+      "Employee Full Name": {
+        "Type": "STRING"
+      },
+      "Santrax ID": {
+        "Type": "STRING"
+      },
+      "EmployeeAddr1": {
+        "Type": "STRING"
+      },
+      "EmployeeAddr2": {
+        "Type": "STRING"
+      },
+      "EmployeeCity": {
+        "Type": "STRING"
+      },
+      "EmployeeState": {
+        "Type": "STRING"
+      },
+      "EmployeeZip": {
+        "Type": "STRING"
+      },
+      "Employee Gender": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "O",
+          "M",
+          "F"
+        ]
+      },
+      "EmployeePhone1": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "******"
+        ]
+      },
+      "EmployeePhone2": {
+        "Type": "STRING"
+      },
+      "EmployeePhone3": {
+        "Type": "STRING"
+      },
+      "EmployeePhone4": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "******"
+        ]
+      },
+      "EmployeePhone5": {
+        "Type": "STRING",
+        "distinct_values": [
+          ""
+        ]
+      },
+      "Employee Email": {
+        "Type": "STRING"
+      },
+      "Employee Hire Date": {
+        "Type": "STRING"
+      },
+      "Employee Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          ""
+        ]
+      },
+      "Employee Status": {
+        "Type": "STRING",
+        "distinct_values": [
+          ""
+        ]
+      },
+      "Employee Description": {
+        "Type": "STRING",
+        "distinct_values": [
+          ""
+        ]
+      },
+      "SourceSystem": {
+        "Type": "STRING",
+        "distinct_values": [
+          "STX"
+        ]
+      },
+      "Employee SSN": {
+        "Type": "STRING"
+      },
+      "Employee Begin Date": {
+        "Type": "DATE"
+      },
+      "Employee End Date": {
+        "Type": "DATE"
+      },
+      "Employee SSN No Dashes": {
+        "Type": "STRING"
+      },
+      "Multiple Agencies": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "ActiveStatus": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Y",
+          "N"
+        ]
+      },
+      "SantraxID_LeadZeros": {
+        "Type": "STRING"
+      },
+      "Account Group": {
+        "Type": "STRING"
+      },
+      "Provider Medicaid ID": {
+        "Type": "STRING"
+      },
+      "EmployeeLoc": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "******"
+        ]
+      },
+      "Account Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Alt EVV",
+          "Agency",
+          "Non Agency"
+        ]
+      },
+      "Payer": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Payer"
+        ]
+      },
+      "Jurisdiction ID": {
+        "Type": "STRING"
+      },
+      "Employee_ID_Custom1": {
+        "Type": "STRING"
+      }
+    }
+  }
+}

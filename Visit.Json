@@ -1,0 +1,496 @@
+{
+  "Visit": {
+    "description": "This dataset is about the visits\u2019 information. It include the visits performed by the accounts in the state program.",
+    "columns": {
+      "ColumnName": {
+        "description": "Sales ID",
+        "distinct_values": []
+      },
+      "VisitKey": {
+        "Type": "LONG"
+      },
+      "Account": {
+        "Type": "STRING"
+      },
+      "Account Name": {
+        "Type": "STRING"
+      },
+      "Account Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Agency",
+          "Non Agency",
+          "Alt EVV"
+        ]
+      },
+      "Account Group": {
+        "Type": "STRING"
+      },
+      "Provider Medicaid ID": {
+        "Type": "STRING"
+      },
+      "Provider Name": {
+        "Type": "STRING"
+      },
+      "Client ID": {
+        "Type": "STRING"
+      },
+      "ClientKey": {
+        "Type": "LONG"
+      },
+      "Alt EVV ID": {
+        "Type": "STRING"
+      },
+      "Client First Name": {
+        "Type": "STRING"
+      },
+      "Client Last Name": {
+        "Type": "STRING"
+      },
+      "Client Full Name": {
+        "Type": "STRING"
+      },
+      "Client Medicaid ID": {
+        "Type": "STRING"
+      },
+      "Santrax ID": {
+        "Type": "STRING"
+      },
+      "Employee ID": {
+        "Type": "STRING"
+      },
+      "Alt EVV Employee ID": {
+        "Type": "STRING"
+      },
+      "Employee First Name": {
+        "Type": "STRING"
+      },
+      "Employee Last Name": {
+        "Type": "STRING"
+      },
+      "Employee Full Name": {
+        "Type": "STRING"
+      },
+      "Employee Email": {
+        "Type": "STRING"
+      },
+      "Service": {
+        "Type": "STRING"
+      },
+      "Service Code": {
+        "Type": "STRING"
+      },
+      "Service Description": {
+        "Type": "STRING"
+      },
+      "Visit Start Date": {
+        "Type": "DATE"
+      },
+      "Original Visit Start Date": {
+        "Type": "DATETIME"
+      },
+      "In Call": {
+        "Type": "DATETIME"
+      },
+      "Out Call": {
+        "Type": "DATETIME"
+      },
+      "In Call Hour": {
+        "Type": "LONG"
+      },
+      "Visit Duration (minutes)": {
+        "Type": "LONG"
+      },
+      "Adjusted In Time": {
+        "Type": "DATETIME"
+      },
+      "Adjusted Out Time": {
+        "Type": "DATETIME"
+      },
+      "Actual In Time": {
+        "Type": "DATETIME"
+      },
+      "Actual Out Time": {
+        "Type": "DATETIME"
+      },
+      "Bill Hours": {
+        "Type": "LONG"
+      },
+      "Memo": {
+        "Type": "STRING"
+      },
+      "Call In Phone": {
+        "Type": "STRING"
+      },
+      "Call In Latitude": {
+        "Type": "STRING"
+      },
+      "Call In Longitude": {
+        "Type": "STRING"
+      },
+      "Call In Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "OTHER",
+          "",
+          "FVV",
+          "MANUAL",
+          "MVV",
+          "IVR"
+        ]
+      },
+      "Call Out Phone": {
+        "Type": "STRING"
+      },
+      "Call Out Latitude": {
+        "Type": "STRING"
+      },
+      "Call out Longitude": {
+        "Type": "STRING"
+      },
+      "Call Out Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "OTHER",
+          "MANUAL",
+          "",
+          "MVV",
+          "FVV",
+          "IVR"
+        ]
+      },
+      "Vendor": {
+        "Type": "STRING"
+      },
+      "Client Verified Time": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Client Verified Service": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Client Digital Signature": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Client Voice Signature": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Visit Status": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "Expired",
+          "Incomplete",
+          "Approved",
+          "In Process",
+          "Processed",
+          "Scheduled",
+          "Verified",
+          "Omit",
+          "Ignored"
+        ]
+      },
+      "No In Call": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "No Out Call": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "GPS Distance": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "Unknown Client": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Employee": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Phone": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "No Client Verification": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "Missing Signature": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Missing Service": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Employee SSN": {
+        "Type": "STRING"
+      },
+      "Contract": {
+        "Type": "STRING"
+      },
+      "Payer": {
+        "Type": "STRING"
+      },
+      "Program": {
+        "Type": "STRING"
+      },
+      "VerifiedInd": {
+        "Type": "LONG",
+        "distinct_values": [
+          0,
+          1
+        ]
+      },
+      "Verified Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "AUTO",
+          "",
+          "MANUAL"
+        ]
+      },
+      "Units": {
+        "Type": "DECIMAL"
+      },
+      "Group Visit Code": {
+        "Type": "STRING"
+      },
+      "Group Visit": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "EmpDayVisits": {
+        "Type": "LONG"
+      },
+      "Schedule ID": {
+        "Type": "STRING"
+      },
+      "Total Exceptions": {
+        "Type": "LONG",
+        "distinct_values": [
+          2,
+          8,
+          9,
+          6,
+          5,
+          0,
+          4,
+          7,
+          1,
+          3
+        ]
+      },
+      "Current Exceptions": {
+        "Type": "LONG",
+        "distinct_values": [
+          1,
+          2,
+          5,
+          6,
+          3,
+          4,
+          0
+        ]
+      },
+      "SourceSystem": {
+        "Type": "STRING",
+        "distinct_values": [
+          "STX"
+        ]
+      },
+      "Visit Week of Year": {
+        "Type": "DOUBLE"
+      },
+      "Visit Year": {
+        "Type": "STRING",
+        "distinct_values": [
+          "2020",
+          "2018",
+          "2023",
+          "2024",
+          "2022",
+          "2021",
+          "2203",
+          "2019",
+          "2017"
+        ]
+      },
+      "Is Payer": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Insert Timestamp": {
+        "Type": "DATETIME"
+      },
+      "modify_tmstp": {
+        "Type": "DATETIME"
+      },
+      "TableKey": {
+        "Type": "STRING",
+        "distinct_values": [
+          "123"
+        ]
+      },
+      "RecCreateDate": {
+        "Type": "DATETIME"
+      },
+      "invisibleind": {
+        "Type": "LONG",
+        "distinct_values": [
+          "",
+          1,
+          0
+        ]
+      },
+      "Client Time Zone": {
+        "Type": "STRING"
+      },
+      "# Visits In Group": {
+        "Type": "LONG"
+      },
+      "Alt EVV Visit ID": {
+        "Type": "STRING"
+      },
+      "Jurisdiction ID": {
+        "Type": "STRING"
+      },
+      "Modifier 1": {
+        "Type": "STRING"
+      },
+      "Modifier 2": {
+        "Type": "STRING"
+      },
+      "Modifier 3": {
+        "Type": "STRING",
+        "distinct_values": [
+          "HA",
+          "UA",
+          "",
+          "U1",
+          "V2",
+          "U9",
+          "UP",
+          "U2",
+          "NU",
+          "U8",
+          "HI",
+          "UQ",
+          "HS",
+          "TU",
+          "H9",
+          "HX",
+          "UN",
+          "HR",
+          "U4"
+        ]
+      },
+      "Modifier 4": {
+        "Type": "STRING",
+        "distinct_values": [
+          "UA",
+          "U8",
+          "UC",
+          "UB",
+          ""
+        ]
+      },
+      "Payer Level ID": {
+        "Type": "STRING"
+      },
+      "Alternate Medicaid ID": {
+        "Type": "STRING"
+      },
+      "Visit Contains Exceptions": {
+        "Type": "LONG",
+        "distinct_values": [
+          1,
+          0
+        ]
+      },
+      "VisitIn": {
+        "Type": "LONG",
+        "distinct_values": [
+          1,
+          0
+        ]
+      },
+      "Call In Location Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "COMMUNITY",
+          "HOME",
+          ""
+        ]
+      },
+      "Call Out Location Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "HOME",
+          "COMMUNITY"
+        ]
+      },
+      "ICN": {
+        "Type": "STRING"
+      },
+      "Hidden": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No"
+        ]
+      }
+    }
+  }
+}

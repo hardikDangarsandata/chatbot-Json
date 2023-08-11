@@ -1,0 +1,239 @@
+{
+  "Clients": {
+    "description": "This dataset is about the client\u2019s information. The client is also known as the members. It includes the name, address, gender, phone, email of the individual clients/members.",
+    "columns": {
+      "ColumnName": {
+        "description": "Sales ID",
+        "distinct_values": []
+      },
+      "Account": {
+        "Type": "STRING"
+      },
+      "Account Name": {
+        "Type": "STRING"
+      },
+      "Client ID": {
+        "Type": "STRING"
+      },
+      "ClientKey": {
+        "Type": "LONG"
+      },
+      "Client First Name": {
+        "Type": "STRING"
+      },
+      "Client Last Name": {
+        "Type": "STRING"
+      },
+      "Client Middle Name": {
+        "Type": "STRING"
+      },
+      "Client Full Name": {
+        "Type": "STRING"
+      },
+      "Client Address 1": {
+        "Type": "STRING"
+      },
+      "Client Address 2": {
+        "Type": "STRING"
+      },
+      "Client City": {
+        "Type": "STRING"
+      },
+      "Client State": {
+        "Type": "STRING"
+      },
+      "Client ZipCode": {
+        "Type": "STRING"
+      },
+      "Client County": {
+        "Type": "STRING"
+      },
+      "ClientRegion": {
+        "Type": "STRING",
+        "distinct_values": [
+          ""
+        ]
+      },
+      "Latitude": {
+        "Type": "DECIMAL"
+      },
+      "Longitude": {
+        "Type": "DECIMAL"
+      },
+      "Address Validated": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Client Gender": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "M",
+          "F",
+          "O",
+          "1",
+          "2",
+          "0"
+        ]
+      },
+      "Client Language": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "English"
+        ]
+      },
+      "Client Phone 1": {
+        "Type": "STRING"
+      },
+      "Client Phone 2": {
+        "Type": "STRING"
+      },
+      "Client Phone 3": {
+        "Type": "STRING"
+      },
+      "Client Fax": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "3125994595",
+          "3318038577"
+        ]
+      },
+      "Client Email": {
+        "Type": "STRING"
+      },
+      "Service": {
+        "Type": "STRING"
+      },
+      "Client Medicaid ID": {
+        "Type": "STRING"
+      },
+      "AltEVVClientID": {
+        "Type": "STRING"
+      },
+      "Client Elig Begin Date": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "0001-01-01"
+        ]
+      },
+      "Client Elig End Date": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "0001-01-01"
+        ]
+      },
+      "Client Description": {
+        "Type": "STRING",
+        "distinct_values": [
+          ""
+        ]
+      },
+      "ClientNote": {
+        "Type": "STRING",
+        "distinct_values": [
+          ""
+        ]
+      },
+      "Payer": {
+        "Type": "STRING"
+      },
+      "sourcesystem": {
+        "Type": "STRING",
+        "distinct_values": [
+          "STX"
+        ]
+      },
+      "Client Medicare ID": {
+        "Type": "STRING",
+        "distinct_values": [
+          ""
+        ]
+      },
+      "Multiple Agencies": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "Active Status": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Y",
+          "N"
+        ]
+      },
+      "Client SSN": {
+        "Type": "STRING"
+      },
+      "Alternate Medicaid ID": {
+        "Type": "STRING"
+      },
+      "Payer Level ID": {
+        "Type": "STRING"
+      },
+      "Creation Date": {
+        "Type": "DATETIME"
+      },
+      "Inactive Date": {
+        "Type": "DATETIME"
+      },
+      "Missing Medicaid ID": {
+        "Type": "LONG",
+        "distinct_values": [
+          0,
+          1
+        ]
+      },
+      "Program": {
+        "Type": "STRING"
+      },
+      "Is Payer": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "Account Group": {
+        "Type": "STRING"
+      },
+      "Provider Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Alt EVV",
+          "Non Agency",
+          "Agency"
+        ]
+      },
+      "Time Zone": {
+        "Type": "STRING"
+      },
+      "Service Description": {
+        "Type": "STRING"
+      },
+      "Service Code": {
+        "Type": "STRING"
+      },
+      "Provider Medicaid ID": {
+        "Type": "STRING"
+      },
+      "Client Location": {
+        "Type": "STRING"
+      },
+      "Contract": {
+        "Type": "STRING"
+      },
+      "Jurisdiction ID": {
+        "Type": "STRING"
+      }
+    }
+  }
+}

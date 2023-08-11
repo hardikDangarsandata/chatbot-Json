@@ -1,0 +1,219 @@
+{
+  "Providers": {
+    "description": "This dataset is about the providers, accounts, and account names. It calculates the number of employees, clients, and visits for the different providers.",
+    "columns": {
+      "ColumnName": {
+        "description": "Sales ID",
+        "distinct_values": []
+      },
+      "ProviderType": {
+        "Type": "STRING",
+        "distinct_values": [
+          "A",
+          "R",
+          "N"
+        ]
+      },
+      "Account": {
+        "Type": "STRING"
+      },
+      "AccountName": {
+        "Type": "STRING"
+      },
+      "Provider_ID": {
+        "Type": "STRING"
+      },
+      "Address1": {
+        "Type": "STRING"
+      },
+      "Address2": {
+        "Type": "STRING"
+      },
+      "City": {
+        "Type": "STRING"
+      },
+      "State": {
+        "Type": "STRING"
+      },
+      "ZipCode": {
+        "Type": "STRING"
+      },
+      "WorkerSSN": {
+        "Type": "STRING"
+      },
+      "Name": {
+        "Type": "STRING"
+      },
+      "Phone": {
+        "Type": "STRING"
+      },
+      "EMail": {
+        "Type": "STRING"
+      },
+      "CreatedDate": {
+        "Type": "DATETIME"
+      },
+      "sourcesystem": {
+        "Type": "STRING",
+        "distinct_values": [
+          "STX"
+        ]
+      },
+      "reckey": {
+        "Type": "STRING"
+      },
+      "Vendor": {
+        "Type": "STRING"
+      },
+      "Payer Name": {
+        "Type": "STRING"
+      },
+      "Groups": {
+        "Type": "STRING"
+      },
+      "SantraxID": {
+        "Type": "STRING"
+      },
+      "SantraxID_LeadZeros": {
+        "Type": "STRING"
+      },
+      "Active NAP User": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "Yes",
+          "No"
+        ]
+      },
+      "ClientsServicedYTD": {
+        "Type": "LONG"
+      },
+      "Account Group": {
+        "Type": "STRING"
+      },
+      "Account Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Agency",
+          "Alt EVV",
+          "Non Agency"
+        ]
+      },
+      "alt_evv_accounts": {
+        "Type": "LONG",
+        "distinct_values": [
+          0,
+          1,
+          2
+        ]
+      },
+      "all_accounts": {
+        "Type": "LONG",
+        "distinct_values": [
+          1
+        ]
+      },
+      "non_agency_accounts": {
+        "Type": "LONG",
+        "distinct_values": [
+          0,
+          1
+        ]
+      },
+      "cds_accounts": {
+        "Type": "LONG",
+        "distinct_values": [
+          0,
+          1
+        ]
+      },
+      "amp_accounts": {
+        "Type": "LONG",
+        "distinct_values": [
+          1,
+          0,
+          2
+        ]
+      },
+      "Provider Medicaid ID": {
+        "Type": "STRING"
+      },
+      "Is Payer": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Provider ID": {
+        "Type": "STRING"
+      },
+      "Has Employees": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Has Clients": {
+        "Type": "STRING",
+        "distinct_values": [
+          "1",
+          "0"
+        ]
+      },
+      "# Employees": {
+        "Type": "LONG"
+      },
+      "# Clients": {
+        "Type": "LONG"
+      },
+      "Payer": {
+        "Type": "STRING"
+      },
+      "# Visits This Month": {
+        "Type": "LONG"
+      },
+      "# Visits Last 31 Days": {
+        "Type": "LONG"
+      },
+      "# Visits YTD": {
+        "Type": "LONG"
+      },
+      "First Login": {
+        "Type": "DATETIME"
+      },
+      "# Visit Exceptions This Month": {
+        "Type": "LONG"
+      },
+      "# Current Visit Exceptions This Month": {
+        "Type": "LONG"
+      },
+      "Jurisdiction ID": {
+        "Type": "STRING"
+      },
+      "Group Visits Enabled": {
+        "Type": "STRING",
+        "distinct_values": [
+          "0",
+          "1"
+        ]
+      },
+      "Vendor Product Name": {
+        "Type": "STRING"
+      },
+      "NPI": {
+        "Type": "STRING"
+      },
+      "Provider Taxonomy Code": {
+        "Type": "STRING"
+      },
+      "Account Name": {
+        "Type": "STRING"
+      },
+      "Program": {
+        "Type": "STRING"
+      }
+    }
+  }
+}

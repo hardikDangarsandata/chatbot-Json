@@ -1,0 +1,339 @@
+{
+  "Exceptions": {
+    "description": "This dataset contains visits with exceptions, including the total number of exceptions, the number of outstanding exceptions and the exception types associated with the visit.",
+    "columns": {
+      "ColumnName": {
+        "description": "Sales ID",
+        "distinct_values": []
+      },
+      "VisitKey": {
+        "Type": "LONG"
+      },
+      "Account": {
+        "Type": "STRING"
+      },
+      "Client ID": {
+        "Type": "STRING"
+      },
+      "Client Medicaid ID": {
+        "Type": "STRING"
+      },
+      "Client First Name": {
+        "Type": "STRING"
+      },
+      "Client Last Name": {
+        "Type": "STRING"
+      },
+      "Client Full Name": {
+        "Type": "STRING"
+      },
+      "Santrax ID": {
+        "Type": "STRING"
+      },
+      "Employee ID": {
+        "Type": "STRING"
+      },
+      "Alt EVV Employee ID": {
+        "Type": "STRING"
+      },
+      "Employee First Name": {
+        "Type": "STRING"
+      },
+      "Employee Last Name": {
+        "Type": "STRING"
+      },
+      "Employee Full Name": {
+        "Type": "STRING"
+      },
+      "Employee Email": {
+        "Type": "STRING"
+      },
+      "Service": {
+        "Type": "STRING"
+      },
+      "Visit Start Date": {
+        "Type": "DATETIME"
+      },
+      "In Call": {
+        "Type": "DATETIME"
+      },
+      "Out Call": {
+        "Type": "DATETIME"
+      },
+      "Adjusted In Time": {
+        "Type": "DATETIME"
+      },
+      "Adjusted Out Time": {
+        "Type": "DATETIME"
+      },
+      "Bill Hours": {
+        "Type": "LONG"
+      },
+      "Memo": {
+        "Type": "STRING"
+      },
+      "Call In Phone": {
+        "Type": "STRING"
+      },
+      "Call In Latitude": {
+        "Type": "DECIMAL"
+      },
+      "Call In Longitude": {
+        "Type": "DECIMAL"
+      },
+      "Call Out Phone": {
+        "Type": "STRING"
+      },
+      "Call Out Latitude": {
+        "Type": "DECIMAL"
+      },
+      "Call Out Longitude": {
+        "Type": "DECIMAL"
+      },
+      "Vendor": {
+        "Type": "STRING"
+      },
+      "Client Verified Time": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "Client Verified Service": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "Client Digital Signature": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Client Voice Signature": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "Visit Status": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Omit",
+          "Verified",
+          "",
+          "Expired",
+          "Incomplete",
+          "Approved",
+          "In Process",
+          "Scheduled",
+          "Processed",
+          "Ignored"
+        ]
+      },
+      "No In Call": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "No Out Call": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "GPS Distance": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Unknown Client": {
+        "Type": "STRING",
+        "distinct_values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "Missing Service": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Contract": {
+        "Type": "STRING"
+      },
+      "tablekey": {
+        "Type": "STRING",
+        "distinct_values": [
+          "123"
+        ]
+      },
+      "In Call Hour": {
+        "Type": "LONG"
+      },
+      "Employee SSN": {
+        "Type": "STRING"
+      },
+      "Call In Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "OTHER",
+          "MVV",
+          "",
+          "IVR",
+          "FVV",
+          "MANUAL"
+        ]
+      },
+      "Call Out Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "IVR",
+          "",
+          "FVV",
+          "MANUAL",
+          "MVV",
+          "OTHER"
+        ]
+      },
+      "Program": {
+        "Type": "STRING"
+      },
+      "Verified Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "",
+          "MANUAL",
+          "AUTO"
+        ]
+      },
+      "excpkey": {
+        "Type": "LONG"
+      },
+      "ackind": {
+        "Type": "LONG",
+        "distinct_values": [
+          1,
+          2,
+          0
+        ]
+      },
+      "Total Exceptions": {
+        "Type": "LONG",
+        "distinct_values": [
+          8,
+          3,
+          1,
+          9,
+          5,
+          6,
+          2,
+          4,
+          0,
+          7
+        ]
+      },
+      "sourcesystem": {
+        "Type": "STRING",
+        "distinct_values": [
+          "STX"
+        ]
+      },
+      "Provider Medicaid ID": {
+        "Type": "STRING"
+      },
+      "Actual In Time": {
+        "Type": "DATETIME"
+      },
+      "Actual Out Time": {
+        "Type": "DATETIME"
+      },
+      "Provider Name": {
+        "Type": "STRING"
+      },
+      "Payer": {
+        "Type": "STRING"
+      },
+      "Account Name": {
+        "Type": "STRING"
+      },
+      "Current Exceptions": {
+        "Type": "LONG",
+        "distinct_values": [
+          1,
+          3,
+          4,
+          6,
+          2,
+          5,
+          0
+        ]
+      },
+      "Account Group": {
+        "Type": "STRING"
+      },
+      "Is Payer": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Exception": {
+        "Type": "STRING"
+      },
+      "CurInd": {
+        "Type": "LONG",
+        "distinct_values": [
+          0,
+          1
+        ]
+      },
+      "RecCreateDate": {
+        "Type": "DATETIME"
+      },
+      "VerifiedInd": {
+        "Type": "LONG",
+        "distinct_values": [
+          0,
+          1
+        ]
+      },
+      "Alt EVV Client ID": {
+        "Type": "STRING"
+      },
+      "Exception Create Date": {
+        "Type": "DATE"
+      },
+      "Account Type": {
+        "Type": "STRING",
+        "distinct_values": [
+          "Alt EVV",
+          "Non Agency",
+          "Agency"
+        ]
+      },
+      "Jurisdiction ID": {
+        "Type": "STRING"
+      },
+      "Service Code": {
+        "Type": "STRING"
+      },
+      "Service Description": {
+        "Type": "STRING"
+      }
+    }
+  }
+}
