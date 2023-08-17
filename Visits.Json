@@ -18,13 +18,49 @@
       "Account Type": {
         "Type": "STRING",
         "distinct_values": [
-          "Agency",
+          "Alt EVV",
           "Non Agency",
-          "Alt EVV"
+          "Agency"
         ]
       },
       "Account Group": {
-        "Type": "STRING"
+        "Type": "STRING",
+        "distinct_values": [
+          "RIEOHHS",
+          "CA",
+          "NC",
+          "CTDDS",
+          "VTDVHA",
+          "sam_comb_acct_372",
+          "PA",
+          "sam_comb_acct_839",
+          "ND",
+          "DE",
+          "WIDHS",
+          "CTDSS",
+          "BTN",
+          "sam_comb_acct_838",
+          "Texas HHS",
+          "COHCPF",
+          "sam_comb_acct_843",
+          "sam_comb_acct_841",
+          "MO",
+          "Molina Maine",
+          "INFSSA",
+          "HI",
+          "DCDHCF",
+          "Illinois DHS",
+          "sam_comb_acct_844",
+          "sam_comb_acct_840",
+          "IDDHW",
+          "sam_comb_acct_371",
+          "sam_comb_acct_377",
+          "sam_comb_acct_837",
+          "AZ",
+          "Ohio",
+          "Connecticut CDS",
+          "PA DWH Catchu"
+        ]
       },
       "Provider Medicaid ID": {
         "Type": "STRING"
@@ -131,12 +167,12 @@
       "Call In Type": {
         "Type": "STRING",
         "distinct_values": [
-          "OTHER",
-          "",
-          "FVV",
           "MANUAL",
-          "MVV",
-          "IVR"
+          "FVV",
+          "IVR",
+          "",
+          "OTHER",
+          "MVV"
         ]
       },
       "Call Out Phone": {
@@ -152,121 +188,311 @@
         "Type": "STRING",
         "distinct_values": [
           "OTHER",
-          "MANUAL",
-          "",
-          "MVV",
+          "IVR",
           "FVV",
-          "IVR"
+          "MVV",
+          "MANUAL",
+          ""
         ]
       },
       "Vendor": {
-        "Type": "STRING"
+        "Type": "STRING",
+        "distinct_values": [
+          "AXISCARE",
+          "RI Aggregator",
+          "IL Upsell",
+          "WI Upsell",
+          "React Portal",
+          "RAVAD",
+          "BRITTCO",
+          "HI Upsell",
+          "ANS",
+          "Credible",
+          "CLISTAHR Technologies",
+          "OnTarget",
+          "Time4Care",
+          "MITWARE",
+          "Aveanna",
+          "Noteefied",
+          "Carewatch",
+          "CO UPSELLS",
+          "By the Bay Health",
+          "BETHESDA LC",
+          "Sandata Agency Management (SAM)",
+          "HI",
+          "Caresmartz360",
+          "Medflyt",
+          "CIRCULO",
+          "Medforall",
+          "Annkissam",
+          "Rethink",
+          "Caryfy Inc",
+          "DocuMentor",
+          "Spectrum",
+          "LEAF",
+          "THERAPY CORNER",
+          "SCL Health",
+          "WIN SOLUTIONS",
+          "AZ",
+          "MEDISKED",
+          "CAREVOYANT",
+          "RESPITRACK",
+          "In My Team",
+          "RIVERSOFT",
+          "MID LLC",
+          "Brightstar",
+          "PA UPSELL",
+          "FMSEngine",
+          "Axiom",
+          "QSP",
+          "FormDox",
+          "Aquila Software",
+          "Gray Swan Software",
+          "Blue Summit",
+          "Essentia Health Home Care West",
+          "Shepherd",
+          "Integrated Services Inc.",
+          "HOMECARE IT",
+          "Savii",
+          "SwyftOps",
+          "Cubhub",
+          "DIRECT CARE INNOVATIONS",
+          "Spokechoice",
+          "STONE BELT ARC",
+          "SFDPH",
+          "XOOMIA",
+          "MyEVV",
+          "Bayada",
+          "WellSky",
+          "Patti 2",
+          "Esperanza Charities, Inc",
+          "HOME CARE SOFTWARE",
+          "GENERATIONS",
+          "Shoshana",
+          "OH Upsell",
+          "Axxess",
+          "PRIMARY SOLUTIONS",
+          "Assuricare/CareWhen/August Systems",
+          "SembraCare",
+          "GEOH",
+          "AZ Upsell",
+          "KALEIDOSCOPE",
+          "Sandata",
+          "Fresno Community Hospital",
+          "PANDA",
+          "Caregiver by GT",
+          "GUARDIANTRAC",
+          "CARETIME",
+          "Halo",
+          "iHealthHome",
+          "AlayaCare",
+          "ThePhoneWorks",
+          "Carehandler",
+          "CentralReach",
+          "MITC",
+          "McKesson",
+          "Sandata I/DD",
+          "Casamba",
+          "SMARTCARE",
+          "Acumen",
+          "Horizon Information Systems",
+          "One Time Home Care Software",
+          "HI MCOs",
+          "COMPLIA HEALTH",
+          "ID Upsell",
+          "Home HealthMD",
+          "QuickSolvePlus",
+          "GT INDEPENDENCE",
+          "Alora Health",
+          "HomeCare HomeBase",
+          "Medlyft",
+          "Generations Homecare Systems",
+          "HCHB",
+          "AAA Home Care",
+          "PrimeCareTech",
+          "Maxim",
+          "AUGUST SYSTEMS",
+          "WakeMed Home Health",
+          "Casaba",
+          "XYPPR",
+          "Stryker",
+          "UNICENTRIC",
+          "ABRIO",
+          "Medical Center",
+          "PALCO",
+          "MedReform",
+          "MEDSYS",
+          "AttentionPlusCare",
+          "Cyberwolf",
+          "Accupoint",
+          "Cordova Consulting",
+          "Celayix",
+          "Netwrx Developments",
+          "The Mentor Network",
+          "iTherapy Docs",
+          "John Muir Home Health Services",
+          "allGEO",
+          "JULISOFT",
+          "MYLESCARDIFF",
+          "Sevita Health",
+          "Visting Aid",
+          "INTELLINETICS",
+          "HHAX",
+          "Barnestorm",
+          "Epic",
+          "Positive Behavior Supports Corp",
+          "Measurepm",
+          "PROPRIETARY SOFTWARE",
+          "AssuriCare",
+          "KANTIME",
+          "Intellisight Technology Inc",
+          "Vichra",
+          "ContinuLink",
+          "Source of Life Technologies/PaSev",
+          "NC Upsell",
+          "AlayaCare Arrow",
+          "Quantum Solutions",
+          "ClockinClockout",
+          "CT DSS CDS",
+          "VSS Technologies",
+          "IN Upsell",
+          "Falkondata",
+          "FOCOS",
+          "ASCEND",
+          "EvergreenElm",
+          "FORTYAU",
+          "No Vendor Found",
+          "SetWorks",
+          "KDG",
+          "Verdian",
+          "tellus",
+          "Topstep",
+          "Oasis Technologies",
+          "ZCO",
+          "Optonome",
+          "CONNECT-A-VOICE",
+          "TANGRA",
+          "WELLSKY",
+          "PPL",
+          "THERAP",
+          "PSNet",
+          "VERTEX",
+          "Datasoft Logic",
+          "Allegheny",
+          "Mercy Technology Services",
+          "Ampersand",
+          "TimeTrack",
+          "ACCEL",
+          "JOTFORM",
+          "Carebridge",
+          "shifts",
+          "Theoris",
+          "Salo Solutions",
+          "LOVELYCARE",
+          "Good Neighbor",
+          "Altru Home Health",
+          "AIDETECH",
+          "KALEIDA SYSTEMS",
+          "CaseMagic",
+          "DD REPORTS",
+          "Advanced Billing and Consulting Services",
+          "Softiya",
+          "ClearCare",
+          "Arizona Cares",
+          "Direct Care Innovations",
+          "KICHI CODE",
+          "PointClickCare",
+          "E-SYSTEM",
+          "CAREFICIENT",
+          "Kaiser Permanente",
+          "DesertLab",
+          "POST-EVV",
+          "Rosemark",
+          "WI AMP",
+          "EWEBSCHEDULE",
+          "Finale Health",
+          "ANKOTA",
+          "CLOUDQUEST",
+          "Integrated Database Systems",
+          "MATRIXCARE",
+          "Cezta solution",
+          "DCI",
+          "Carecenta",
+          "ThinkHealth",
+          "CellTrak/HomeCare HomeBase",
+          "Netsmart",
+          "I/DD",
+          "MyEZcare",
+          "Datalogic",
+          "T3 Test",
+          "AdaCare",
+          "vTrack",
+          "Aymira",
+          "Providence Home Health",
+          "SOLANA",
+          "Billiyo",
+          "SAM Raw Calls",
+          "AUTOVISIT",
+          "QA Test Vendor 1"
+        ]
       },
       "Client Verified Time": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Client Verified Service": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Client Digital Signature": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Client Voice Signature": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Visit Status": {
         "Type": "STRING",
         "distinct_values": [
-          "",
-          "Expired",
           "Incomplete",
           "Approved",
-          "In Process",
           "Processed",
           "Scheduled",
-          "Verified",
+          "",
+          "Expired",
           "Omit",
-          "Ignored"
+          "In Process",
+          "Ignored",
+          "Verified"
         ]
       },
       "No In Call": {
-        "Type": "STRING",
-        "distinct_values": [
-          "No",
-          "Yes"
-        ]
+        "Type": "STRING"
       },
       "No Out Call": {
-        "Type": "STRING",
-        "distinct_values": [
-          "No",
-          "Yes"
-        ]
+        "Type": "STRING"
       },
       "GPS Distance": {
         "Type": "STRING",
         "distinct_values": [
-          "No",
-          "Yes"
+          "Yes",
+          "No"
         ]
       },
       "Unknown Client": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Employee": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Phone": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "No Client Verification": {
-        "Type": "STRING",
-        "distinct_values": [
-          "No",
-          "Yes"
-        ]
+        "Type": "STRING"
       },
       "Missing Signature": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Missing Service": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Employee SSN": {
         "Type": "STRING"
@@ -281,11 +507,7 @@
         "Type": "STRING"
       },
       "VerifiedInd": {
-        "Type": "LONG",
-        "distinct_values": [
-          0,
-          1
-        ]
+        "Type": "LONG"
       },
       "Verified Type": {
         "Type": "STRING",
@@ -304,8 +526,8 @@
       "Group Visit": {
         "Type": "STRING",
         "distinct_values": [
-          "No",
-          "Yes"
+          "Yes",
+          "No"
         ]
       },
       "EmpDayVisits": {
@@ -315,37 +537,13 @@
         "Type": "STRING"
       },
       "Total Exceptions": {
-        "Type": "LONG",
-        "distinct_values": [
-          2,
-          8,
-          9,
-          6,
-          5,
-          0,
-          4,
-          7,
-          1,
-          3
-        ]
+        "Type": "LONG"
       },
       "Current Exceptions": {
-        "Type": "LONG",
-        "distinct_values": [
-          1,
-          2,
-          5,
-          6,
-          3,
-          4,
-          0
-        ]
+        "Type": "LONG"
       },
       "SourceSystem": {
-        "Type": "STRING",
-        "distinct_values": [
-          "STX"
-        ]
+        "Type": "STRING"
       },
       "Visit Week of Year": {
         "Type": "DOUBLE"
@@ -353,23 +551,19 @@
       "Visit Year": {
         "Type": "STRING",
         "distinct_values": [
-          "2020",
+          "2021",
           "2018",
           "2023",
           "2024",
+          "2017",
           "2022",
-          "2021",
-          "2203",
+          "2020",
           "2019",
-          "2017"
+          "2203"
         ]
       },
       "Is Payer": {
-        "Type": "STRING",
-        "distinct_values": [
-          "Yes",
-          "No"
-        ]
+        "Type": "STRING"
       },
       "Insert Timestamp": {
         "Type": "DATETIME"
@@ -378,21 +572,13 @@
         "Type": "DATETIME"
       },
       "TableKey": {
-        "Type": "STRING",
-        "distinct_values": [
-          "123"
-        ]
+        "Type": "STRING"
       },
       "RecCreateDate": {
         "Type": "DATETIME"
       },
       "invisibleind": {
-        "Type": "LONG",
-        "distinct_values": [
-          "",
-          1,
-          0
-        ]
+        "Type": "LONG"
       },
       "Client Time Zone": {
         "Type": "STRING"
@@ -413,38 +599,10 @@
         "Type": "STRING"
       },
       "Modifier 3": {
-        "Type": "STRING",
-        "distinct_values": [
-          "HA",
-          "UA",
-          "",
-          "U1",
-          "V2",
-          "U9",
-          "UP",
-          "U2",
-          "NU",
-          "U8",
-          "HI",
-          "UQ",
-          "HS",
-          "TU",
-          "H9",
-          "HX",
-          "UN",
-          "HR",
-          "U4"
-        ]
+        "Type": "STRING"
       },
       "Modifier 4": {
-        "Type": "STRING",
-        "distinct_values": [
-          "UA",
-          "U8",
-          "UC",
-          "UB",
-          ""
-        ]
+        "Type": "STRING"
       },
       "Payer Level ID": {
         "Type": "STRING"
@@ -453,43 +611,22 @@
         "Type": "STRING"
       },
       "Visit Contains Exceptions": {
-        "Type": "LONG",
-        "distinct_values": [
-          1,
-          0
-        ]
+        "Type": "LONG"
       },
       "VisitIn": {
-        "Type": "LONG",
-        "distinct_values": [
-          1,
-          0
-        ]
+        "Type": "LONG"
       },
       "Call In Location Type": {
-        "Type": "STRING",
-        "distinct_values": [
-          "COMMUNITY",
-          "HOME",
-          ""
-        ]
+        "Type": "STRING"
       },
       "Call Out Location Type": {
-        "Type": "STRING",
-        "distinct_values": [
-          "",
-          "HOME",
-          "COMMUNITY"
-        ]
+        "Type": "STRING"
       },
       "ICN": {
         "Type": "STRING"
       },
       "Hidden": {
-        "Type": "STRING",
-        "distinct_values": [
-          "No"
-        ]
+        "Type": "STRING"
       }
     }
   }
