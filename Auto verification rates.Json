@@ -1,1 +1,62 @@
-
+{
+   "Auto verification rates":{
+      "description":"Des",
+      "columns":{
+         "ColumnName":{
+            "description":"Sales ID",
+            "distinct_values":[
+               
+            ]
+         },
+         "State":{
+            "Type":"STRING",
+            "distinct_values":[
+            "MO",
+"PA",
+"WIDHS",
+"Ohio",
+"COHCPF",
+"AZ",
+"INFSSA",
+"NC",
+"CA",
+"ND",
+"CTDDS",
+"Molina Maine",
+"IDDHW",
+"DCDHCF",
+"HI",
+"Illinois DHS",
+"VTDVHA",
+"RIEOHHS",
+"BTN",
+"DE",
+"Connecticut CDS",
+"CTDSS",
+"PA DWH Catchu"
+            ]
+         },
+         "MCO":{
+            "Type":"STRING"
+         },
+         "Account":{
+            "Type":"STRING"
+         },
+         "Account Name":{
+            "Type":"STRING"
+         },
+         "auto percentage provider":{
+            "Type":"DOUBLE"
+         },
+         "auto percentage mcos":{
+            "Type":"DOUBLE"
+         },
+         "auto percentage state":{
+            "Type":"DOUBLE"
+         },
+         "date":{
+            "Type":"DATETIME"
+         }
+      }
+   }
+}
