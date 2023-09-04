@@ -58,42 +58,5 @@
   {
     "Question": "How many active clients are for state hi",
     "SQL": "SELECT COUNT(DISTINCT CONCAT(`Client ID`, '-', `Account`)) AS total_clients FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Account Group` = 'HI';"
-  },
-  {
-    "Question": "How many active clients are for state PA",
-    "SQL": "SELECT COUNT(DISTINCT CONCAT(`Client ID`, '-', `Account`)) AS total_clients FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Account Group` = 'PA';"
-  },
-  
-  {
-    "Question": "How many active members are listed for agency accounts for account group PA",
-    "SQL": "SELECT COUNT(DISTINCT CONCAT(`Client ID`, '-', `Account`)) AS total_clients FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Provider Type` = 'Agency' AND `Account Group` = 'PA';"
-  },
-  {
-    "Question": "How many active members are listed for agency accounts for state az",
-    "SQL": "SELECT COUNT(DISTINCT CONCAT(`Client ID`, '-', `Account`)) AS total_clients FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Provider Type` = 'Agency' AND `Account Group` = 'AZ';"
-  },
-  {
-    "Question": "Provide me the lists of the active clients are listed for agency accounts for Account Group Mo",
-    "SQL": "SELECT * FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Provider Type` = 'Agency' AND `Account Group` = 'MO';"
-  },
-  {
-    "Question": "Provide me the lists of the active clients are listed for agency accounts for STATE pA",
-    "SQL": "SELECT * FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Provider Type` = 'Agency' AND `Account Group` = 'PA';"
-  },
-  {
-    "Question": "show me the number of active clients that are created in May 2023 in STATE AZ",
-    "SQL": "SELECT COUNT(DISTINCT CONCAT(`Client ID`, '-', `Account`)) AS total_clients FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Account Group` = 'AZ' AND `Creation Date` > '2023-05-01 00:00:00' AND `Creation Date` < '2023-06-01 00:00:00';"
-  },
-  {
-    "Question": "show me the number of active clients that are created in May 2023 in account group HI",
-    "SQL": "SELECT COUNT(DISTINCT CONCAT(`Client ID`, '-', `Account`)) AS total_clients FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Account Group` = 'HI' AND `Creation Date` > '2023-05-01 00:00:00' AND `Creation Date` < '2023-06-01 00:00:00';"
-  },
-  {
-    "Question": "show me the Active clients that are created in May 2023 in STATE AZ",
-    "SQL": "SELECT * FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Account Group` = 'AZ' AND `Creation Date` > '2023-05-01 00:00:00' AND `Creation Date` < '2023-06-01 00:00:00';"
-  },
-  {
-    "Question": "show me the active clients that are created in May 2023 in account group HI",
-    "SQL": "SELECT * FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Account Group` = 'HI' AND `Creation Date` > '2023-05-01 00:00:00' AND `Creation Date` < '2023-06-01 00:00:00';"
   }
 ]
