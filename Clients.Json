@@ -68,16 +68,7 @@
         ]
       },
       "Client Gender": {
-        "Type": "STRING",
-        "distinct_values": [
-          "",
-          "M",
-          "F",
-          "O",
-          "1",
-          "2",
-          "0"
-        ]
+        "Type": "STRING"
       },
       "Client Language": {
         "Type": "STRING",
@@ -96,12 +87,7 @@
         "Type": "STRING"
       },
       "Client Fax": {
-        "Type": "STRING",
-        "distinct_values": [
-          "",
-          "3125994595",
-          "3318038577"
-        ]
+        "Type": "STRING"
       },
       "Client Email": {
         "Type": "STRING"
@@ -116,18 +102,10 @@
         "Type": "STRING"
       },
       "Client Elig Begin Date": {
-        "Type": "STRING",
-        "distinct_values": [
-          "",
-          "0001-01-01"
-        ]
+        "Type": "STRING"
       },
       "Client Elig End Date": {
-        "Type": "STRING",
-        "distinct_values": [
-          "",
-          "0001-01-01"
-        ]
+        "Type": "STRING"
       },
       "Client Description": {
         "Type": "STRING",
@@ -208,9 +186,9 @@
       "Provider Type": {
         "Type": "STRING",
         "distinct_values": [
+          "Agency",
           "Alt EVV",
-          "Non Agency",
-          "Agency"
+          "Non Agency"
         ]
       },
       "Time Zone": {
@@ -232,6 +210,9 @@
         "Type": "STRING"
       },
       "Jurisdiction ID": {
+        "Type": "STRING"
+      },
+      "Newborn Indicator": {
         "Type": "STRING"
       }
     }
