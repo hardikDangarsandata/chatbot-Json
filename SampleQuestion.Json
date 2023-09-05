@@ -58,5 +58,20 @@
   {
     "Question": "How many active clients are for state hi",
     "SQL": "SELECT COUNT(DISTINCT CONCAT(`Client ID`, '-', `Account`)) AS total_clients FROM `v2_Prod_Clients` WHERE `Active Status` = 'Y' AND `Account Group` = 'HI';"
+  },
+  {
+    "Question": "How many visits in the last 5 days were manual vs MVV vs IVR for account group HI",
+    "SQL": "SELECT SUM(CASE WHEN `Call In Type` = 'MANUAL' THEN 1 ELSE 0 END) AS `MANUAL Visits`, SUM(CASE WHEN `Call In Type` = 'MVV' THEN 1 ELSE 0 END) AS `MVV Visits`, SUM(CASE WHEN `Call In Type` = 'IVR' THEN 1 ELSE 0 END) AS `IVR Visits` FROM `v2_Prod_Visits(A)` WHERE `Visit Start Date` >= DATE_SUB(CURDATE(), INTERVAL 5 DAY) AND `Account Group` = 'HI';"
+  },
+  {
+    "Question": "How many total visits for account group HI in the last 5 days? and How many of these were verified and how many were auto-verified?",
+    "SQL": "SELECT COUNT(*) AS `Total Visits`, SUM(CASE WHEN `Verified Type` = 'AUTO' THEN 1 ELSE 0 END) AS `Auto-Verified Visits`, SUM(CASE WHEN `visit status` = 'Verified' THEN 1 ELSE 0 END)AS `Verified Visits` FROM `v2_Prod_Visits(A)` WHERE `Account Group` = 'HI' AND `Visit Start Date` >= DATE_SUB(CURDATE(), INTERVAL 5 DAY);"
+  },
+  {
+    "Question": "How many visits are verified in 2022 Jan  for Account Group AZ",
+    "SQL": "SELECT COUNT(*) FROM v2_Prod_Visits WHERE `Visit Start Date` >= '2022-01-01' AND `Visit Start Date` < '2022-02-01' AND `Account Group` = 'AZ' AND `VerifiedInd` = 1;"
   }
 ]
+
+
+
