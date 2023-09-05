@@ -1,29 +1,5 @@
 [
   {
-    "Question": "Show me the providers with 50 or more employees in account group HI",
-    "SQL": "SELECT * FROM `v2_Prod_Providers` WHERE `# Employees` >= 50 AND `Account Group` = 'HI';"
-  },
-  {
-    "Question": "What is the number of providers in account group HI",
-    "SQL": "SELECT COUNT(distinct CONCAT(`Account`, '-', `Provider Medicaid ID`, '-', `SantraxId`)) AS `Total Providers` FROM `v2_Prod_Providers`  WHERE `Account Group` = 'HI';"
-  },
-  {
-    "Question": "Show me the unique number of providers in account group HI",
-    "SQL": "SELECT COUNT(distinct CONCAT(`Account`, '-', `Provider Medicaid ID`, '-', `SantraxId`)) AS `Total Providers` FROM `v2_Prod_Providers`  WHERE `Account Group` = 'HI';"
-  },
-  {
-    "Question": "Show me the unique number of providers in State HI",
-    "SQL": "SELECT COUNT(distinct CONCAT(`Account`, '-', `Provider Medicaid ID`, '-', `SantraxId`)) AS `Total Providers` FROM `v2_Prod_Providers`  WHERE `Account Group` = 'HI';"
-  },
-  {
-    "Question": "Show me the unique number of providers in account group PA that created LAST FIVE DAYS",
-    "SQL": "SELECT COUNT(distinct CONCAT(`Account`, '-', `Provider Medicaid ID`, '-', `SantraxId`)) AS `Total Providers` FROM `v2_Prod_Providers`  WHERE `Account Group` = 'PA' AND `CreatedDate` >= DATE_SUB(CURDATE(), INTERVAL 5 DAY);"
-  },
-  {
-    "Question": "Show me the unique number of providers in state pa that created LAST FIVE DAYS",
-    "SQL": "SELECT COUNT(distinct CONCAT(`Account`, '-', `Provider Medicaid ID`, '-', `SantraxId`)) AS `Total Providers` FROM `v2_Prod_Providers`  WHERE `Account Group` = 'PA' AND `CreatedDate` >= DATE_SUB(CURDATE(), INTERVAL 5 DAY);"
-  },
-  {
     "Question": "Show me the providers in state pa that created in the last five days",
     "SQL": "SELECT * FROM `v2_Prod_Providers`  WHERE `Account Group` = 'PA' AND `CreatedDate` >= DATE_SUB(CURDATE(), INTERVAL 5 DAY);"
   },
